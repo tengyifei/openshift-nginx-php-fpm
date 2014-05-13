@@ -10,7 +10,8 @@ Forked from getupcloud/openshift-nginx-php-fpm.
 ```bash
 $ rhc app create phpfpm https://reflector-getupcloud.getup.io/reflect?github=pinodex/openshift-nginx-php-fpm
 $ cd phpfpm
-$ echo '<?php phpinfo(); ?>' > www/info.php
+$ echo '<?php phpinfo(); ?>' > php/info.php
+$ echo 'Hello World' >> www/static/hello.html
 $ git add .
 $ git commit -m 'Testing'
 $ git push
