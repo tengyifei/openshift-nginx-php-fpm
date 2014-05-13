@@ -52,7 +52,7 @@ function _stop_service() {
 
 function stop() {
    _stop_service $NGINX_PID_FILE
-   _stop_service $PHP_PID_FILE
+   _stop_service $PHP_PID_FILEged
 }
 
 function configtest() {
