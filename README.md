@@ -1,7 +1,6 @@
 # OpenShift Nginx PHP-FPM Cartridge
 
-nginx 1.6.0
-php 5.3, 5.4, and 5.5
+Nginx updated to 1.6.0 with PHP 5.3/5.4/5.5.
 
 Forked from [getupcloud/openshift-nginx-php-fpm](https://github.com/getupcloud/openshift-nginx-php-fpm).
 
@@ -15,7 +14,6 @@ $ git add .
 $ git commit -m 'Testing'
 $ git push
 ```
-
 To select PHP version that will be used in your app, just pass the **v** parameter to the URL. Example:
 
 ```bash
