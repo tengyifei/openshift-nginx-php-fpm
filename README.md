@@ -20,6 +20,7 @@ $ git push
 ### Using OpenShift Console
 Use this for your cartridge URL [https://www.openshift.com/developers/rhc-client-tools-install](https://www.openshift.com/developers/rhc-client-tools-install)
 
+## PHP Version
 
 PHP 5.4 will be installed if the "**v**" parameter is not specified. To install other PHP version, just pass the version to the "**v**" parameter.
 
