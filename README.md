@@ -6,6 +6,8 @@ Forked from [getupcloud/openshift-nginx-php-fpm](https://github.com/getupcloud/o
 
 ## Example Usage
 
+### Command line
+Install the [OpenShift RHC Client Tools](https://www.openshift.com/developers/rhc-client-tools-install) first if you haven't installed it yet.
 ```bash
 $ rhc app create myapplicationname https://reflector-getupcloud.getup.io/github/pinodex/openshift-nginx-php-fpm
 $ cd myapplicationname
@@ -14,7 +16,12 @@ $ git add .
 $ git commit -m 'Testing'
 $ git push
 ```
-PHP 5.4 will be installed if the **v** parameter is not specified. To install other PHP version, just pass the version to the **v** parameter.
+
+### Using OpenShift Console
+Use this for your cartridge URL [https://www.openshift.com/developers/rhc-client-tools-install](https://www.openshift.com/developers/rhc-client-tools-install)
+
+
+PHP 5.4 will be installed if the "**v**" parameter is not specified. To install other PHP version, just pass the version to the "**v**" parameter.
 
 ```bash
 $ rhc app create myapplicationname https://reflector-getupcloud.getup.io/github/pinodex/openshift-nginx-php-fpm?v=5.3
