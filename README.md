@@ -14,10 +14,10 @@ $ git add .
 $ git commit -m 'Testing'
 $ git push
 ```
-To select PHP version that will be used in your app, just pass the **v** parameter to the URL. Example:
+PHP 5.4 will be installed if the **v** parameter is not specified. To install other PHP version, just pass the version to the **v** parameter.
 
 ```bash
-$ rhc app create myapplicationname https://reflector-getupcloud.getup.io/reflect?github=pinodex/openshift-nginx-php-fpm\&v=5.4
+$ rhc app create myapplicationname https://reflector-getupcloud.getup.io/reflect?github=pinodex/openshift-nginx-php-fpm\&v=5.3
 ```
 
 ## User-defined configuration
