@@ -7,7 +7,7 @@ Forked from [getupcloud/openshift-nginx-php-fpm](https://github.com/getupcloud/o
 ## Example Usage
 
 ```bash
-$ rhc app create myapplicationname https://reflector-getupcloud.getup.io/reflect?github=pinodex/openshift-nginx-php-fpm
+$ rhc app create myapplicationname https://reflector-getupcloud.getup.io/github/pinodex/openshift-nginx-php-fpm
 $ cd myapplicationname
 $ echo '<?php phpinfo(); ?>' > www/info.php
 $ git add .
@@ -17,7 +17,7 @@ $ git push
 PHP 5.4 will be installed if the **v** parameter is not specified. To install other PHP version, just pass the version to the **v** parameter.
 
 ```bash
-$ rhc app create myapplicationname https://reflector-getupcloud.getup.io/reflect?github=pinodex/openshift-nginx-php-fpm\&v=5.3
+$ rhc app create myapplicationname https://reflector-getupcloud.getup.io/github/pinodex/openshift-nginx-php-fpm?v=5.3
 ```
 
 ## User-defined configuration
