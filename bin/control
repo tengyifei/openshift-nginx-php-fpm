@@ -56,9 +56,9 @@ function stop() {
 }
 
 function configtest() {
-    client_message "Testing Apache *.conf files"
+    client_message "Testing Nginx configuration files..."
     $OPENSHIFT_PHP_DIR/usr/sbin/nginx -c $NGINX_CFG_FILE -g "error_log stderr;" -t
-    client_message "Testing php-fpm *.conf files"
+    client_message "Testing php-fpm configuration files..."
     _php-fpm -F -y $OPENSHIFT_PHP_DIR/configuration/etc/php-fpm.conf --test
     return $?
 }
