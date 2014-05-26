@@ -18,7 +18,7 @@ $ git push
 ```
 
 ### Using OpenShift Console
-Use this for your cartridge URL [https://www.openshift.com/developers/rhc-client-tools-install](https://www.openshift.com/developers/rhc-client-tools-install)
+Use this for your cartridge definition URL [https://reflector-getupcloud.getup.io/github/pinodex/openshift-nginx-php-fpm](https://reflector-getupcloud.getup.io/github/pinodex/openshift-nginx-php-fpm)
 
 ## PHP Version
 
