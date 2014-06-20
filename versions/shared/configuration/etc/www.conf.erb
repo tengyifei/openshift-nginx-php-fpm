@@ -174,7 +174,7 @@ pm.max_spare_servers = 35
  
 ; Chdir to this directory at the start. This value must be an absolute path.
 ; Default Value: current directory or / when chroot
-chdir = <%= ENV['OPENSHIFT_REPO_DIR'] %>www
+chdir = <%= ENV['OPENSHIFT_REPO_DIR'] %>
  
 ; Redirect worker stdout and stderr into main error log. If not set, stdout and
 ; stderr will be redirected to /dev/null according to FastCGI specs.
