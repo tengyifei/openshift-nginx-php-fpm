@@ -24,13 +24,14 @@ Requires:      php-pgsql
 Requires:      php-mbstring
 Requires:      php-pear
 Requires:      php-imap
-Requires:      php-pecl-apc
 Requires:      php-mcrypt
 Requires:      php-soap
 Requires:      php-bcmath
 Requires:      php-process
 Requires:      php-pecl-imagick
 Requires:      php-pecl-xdebug
+Requires:      php-pecl-apcu-devel >= 4.0
+Requires:      php-pecl-redis
 BuildArch:     noarch
 # php-5.4 scl
 Requires:      php54-php-pdo
