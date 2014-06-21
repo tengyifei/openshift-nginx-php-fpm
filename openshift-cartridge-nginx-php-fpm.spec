@@ -8,7 +8,7 @@ Summary:       Php-fpm cartridge
 Group:         Development/Languages
 License:       ASL 2.0
 URL:           https://getupcloud.com
-Source0:       https://github.com/getupcloud/origin-server/%{name}/%{name}-%{version}.tar.gz
+Source0:       https://github.com/tengyifei/origin-server/%{name}/%{name}-%{version}.tar.gz
 Requires:      rubygem(openshift-origin-node)
 Requires:      php >= 5.3.2
 Requires:      php < 5.4
